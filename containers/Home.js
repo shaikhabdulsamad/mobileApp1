@@ -8,6 +8,7 @@ export default function HomeScreen({navigation}) {
 <TouchableOpacity onPress={() => navigation.navigate('Account')} style={{marginTop:10}}><Text>Go to Account</Text></TouchableOpacity>
 <TouchableOpacity onPress={() => navigation.navigate('Cart')} style={{marginTop:10}}><Text>Go to Cart</Text></TouchableOpacity>
 <TouchableOpacity onPress={() => navigation.navigate('Products')} style={{marginTop:10}}><Text>Go to Products</Text></TouchableOpacity>
+
     </View>
   );
 }
